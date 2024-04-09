@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>F.R.I.E.N.D.S</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+      .title {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+      }
+
+      body {
+        font-family: 'Kalam';
+        color: white;
+        background-color: black;
+      }
+
+      button {
+        font-family: 'Roboto';
+        background-color: #F9D01E;
+        color: #000;
+        border: none;
+        padding: 20px;
+        font-size: 24px;
+        border-radius: 5px;
+      }
+
+      button:hover {
+        cursor: pointer;
+      }
+
+      .id-card > img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+      }
+
+      .flex-container {
+        display: flex;
+      }
+
+      .id-card{
+        flex-basis: 400px;
+        text-align: center;
+        align-items: center;
+      }
+
+      ul > li {
+        list-style: none;
+        text-align: left;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .hr {
+        display: none;
+      }
+
+      h1 {
+        font-size: 48px;
+        text-decoration: underline;
+      }
+
+      ul {
+        margin-bottom: 50px;
+      }
+
+      .button {
+        background-color: lightcoral;
+      }
+
+      @media (max-width:1600px){
+        .flex-container {
+          flex-direction: column;
+      }
+      ul > li {
+        text-align: center;
+      }
+
+      hr {
+        color: aqua;
+        margin-top: 30px;
+        margin-bottom: 0;
+        width: 50%;
+      }
+      
+      body {
+        margin-bottom: 100px;
+      }
+
+      .id-card > img{
+        width: 500px;
+        height: 500px;
+      }
+
+      .title {
+        width: 70%;
+        margin-bottom: 0;
+      }
+      }    
+      </style>
+  </head>
+  <body>
+    <img src="./friends-title.png" alt="friends - an american sitcom" class="title">
+    <div class="flex-container">
+      <div class="id-card">
+        <h1>Chandler</h1>
+        <img src="./chandler.jpg" alt="chandler">
+        <ul>
+          <li>✅Full Name: Chandler Muriel Bing</li> 
+          <li>✅Played By: Matthew Perry</li>
+          <li>✅Spouse: Monica</li>
+        </ul>
+        <button>Upvote</button>
+      </div>
+      <hr />
+
+      <div class="id-card">
+        <h1>Monica</h1>
+        <img src="./monica.jpg" alt="monica">
+        <ul>
+          <li>✅Full Name: Monica Geller</li> 
+          <li>✅Played By: Courteney Cox</li>
+          <li>✅Spouse: Chandler Bing</li>
+        </ul>
+        <button class="button">Upvote</button>
+      </div>
+      <hr />
+      <div class="id-card">
+        <h1>Rachel</h1>
+        <img src="./rachel.jpg" alt="rachel">
+        <ul>
+          <li>✅Full Name: Rachel Green</li> 
+          <li>✅Played By: Jennifer Aniston</li>
+          <li>✅Spouse: Ross Geller</li>
+        </ul>
+        <button>Upvote</button>
+      </div>
+      <hr />
+      <div class="id-card">
+        <h1>Ross</h1>
+        <img src="./ross.webp" alt="ross">
+        <ul>
+          <li>✅Full Name: Ross Geller</li> 
+          <li>✅Played By: David Schwimmer</li>
+          <li>✅Spouse: Rachel Green, Emily and Carol</li>
+        </ul>
+        <button class="button">Upvote</button>
+      </div>
+      <hr />
+      <div class="id-card">
+        <h1>Joey</h1>
+        <img src="./joey.avif" alt="joey">
+        <ul>
+          <li>✅Full Name: Joey Tribbiani</li> 
+          <li>✅Played By: Matt LeBlanc</li>
+          <li>✅Romantically involved with: Rachel, 
+            Ursula etc</li>
+        </ul>
+        <button>Upvote</button>
+      </div>
+      <hr />
+      <div class="id-card">
+        <h1>Phoebe</h1>
+        <img src="./phoebe.jpg" alt="phoebe">
+        <ul>
+          <li>✅Full Name: Phoebe Buffay</li> 
+          <li>✅Played By: Lisa Valerie Kudrow</li>
+          <li>✅Spouse: Mike Hannigan</li>
+        </ul>
+        <button class="button">Upvote</button>
+      </div>
+      <hr class="hr"/>
+    </div>
+  </body>
+</html>
